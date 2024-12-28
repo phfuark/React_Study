@@ -19,6 +19,7 @@ The goal of this repository is to provide a study environment for developers who
 - **CSS**: For styling. 🎨
 - **HTML**: For structuring the content. 🏗️
 
+
 ## 🚀 Installation
 
 To start using this project, follow the steps below:
