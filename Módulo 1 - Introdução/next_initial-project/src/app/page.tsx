@@ -1,5 +1,6 @@
 import {Forms} from '@/components/Forms'
 import {Person} from '@/components/Person'
+import {Card} from '@/components/Card';
 
 const Page = () => {
   return(
@@ -20,6 +21,17 @@ const Page = () => {
         name='phfuark'
         roles={['Dono deste repositório', 'Aprendiz']}
       />
+
+      <Person
+        name='Paulo Henrique'
+        roles={['Sim', 'Talvez']}
+      />
+
+      <Card>
+        <>
+          <h1>Texto qualquer</h1>
+        </>  
+      </Card>
     </div>
   );
 }
