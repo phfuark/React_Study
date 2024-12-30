@@ -1,8 +1,12 @@
 import {Forms} from '@/components/Forms'
 import {Person} from '@/components/Person'
 import {Card} from '@/components/Card';
+import {peopleList} from '@/data/people';
 
 const Page = () => {
+
+  const List = peopleList.map(person=> <li>Nome: {person.name} - ID: {person.id} - Profession: {person.profession}</li>)
+
   return(
     <div className="text-2xl pl-4">
       <h1 className="font-bold">Primeira página com React!</h1>
@@ -22,12 +26,11 @@ const Page = () => {
         roles={['Dono deste repositório', 'Aprendiz']}
       />
 
-      <Person
-        name='Paulo Henrique'
-        roles={['Sim', 'Talvez']}
-      />
-
       <Card phase='Sim' author='Não'/>
+
+      <ul>
+        {List}
+      </ul>
     </div>
   );
 }
