@@ -27,11 +27,7 @@ const Page = () => {
         roles={['Sim', 'Talvez']}
       />
 
-      <Card>
-        <>
-          <h1>Texto qualquer</h1>
-        </>  
-      </Card>
+      <Card phase='Sim' author='Não'/>
     </div>
   );
 }
