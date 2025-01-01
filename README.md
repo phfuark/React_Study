@@ -4,7 +4,7 @@ Welcome to the **React Study** repository! This project is dedicated to learning
 
 ## 🎯 Objective
 
-The goal of this repository is to provide a study environment for developers who want to learn or improve their skills in React. Here you will find practical examples, tutorials, and useful resources. 📚✨
+The goal of this repository is to provide a study environment for developers who want to learn or improve their skills in React. Here you will find practical examples, tutorials, and useful resources. 📚
 
 ## 🗂️ Project Structure
 
