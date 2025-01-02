@@ -22,8 +22,6 @@ The goal of this repository is to provide a study environment for developers who
 
 ## 🚀 Installation
 
-To start using this project, follow the steps below:
-
 1. Clone the repository:  
    ```bash
    git clone https://github.com/phfuark/React_Study.git
