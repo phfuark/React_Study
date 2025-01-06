@@ -2,6 +2,7 @@ import {Forms} from '@/components/Forms'
 import {Person} from '@/components/Person'
 import {Card} from '@/components/Card';
 import {peopleList} from '@/data/peopleList';
+import { EmojiRating } from '@/components/EmojiRating';
 
 const Page = () => {
 
@@ -30,7 +31,7 @@ const Page = () => {
   return(
     <div className='w-screen h-screen flex justify-center items-center text-white bg-teal-600'>
       <div className='w-screen flex justify-around'>
-        <div>
+        <div className='h-30 flex flex-col justify-between'>
           Exercise 1
           <div className='text-9xl'>
             {Time}
@@ -39,13 +40,10 @@ const Page = () => {
             {actualHour}
           </div>
         </div>
-        <div>
-          Exercise 1
+        <div className='h-30 flex flex-col justify-between'>
+          Exercise 2
           <div className='text-9xl'>
-            {Time}
-          </div>
-          <div className="text-5xl">
-            {actualHour}
+          <EmojiRating rate={5.2} />
           </div>
         </div>
       </div> 
